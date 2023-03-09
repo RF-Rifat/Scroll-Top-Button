@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(rgb(50, 50, 238),rgb(181, 181, 65),green,tomato,skyblue);
+    color: #ffffff;
+}
+.main{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 1%;
+}
+.heading,
+.para{
+    font-size: 2rem;
+    line-height: 5rem;
+}
+.heading{
+    margin-top: 5vh;
+}
+#btn1{
+    font-size: 4rem;
+    position: fixed;
+    top: 88svh;
+    left: 88vw;
+}
+#btn2{
+    font-size: 7rem;
+    position: sticky;
+    top: 80svh;
+    left: 43vw;
+    color: rgb(30, 189, 198);
+}
+footer{
+    height: 30svh;
+}
